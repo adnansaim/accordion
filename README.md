@@ -1,7 +1,7 @@
 
 # Web Accordion creation
 
-Simbple Accordion design and development using Html , Css(scss) and Javascript
+Simple Accordion design and development using Html , Css(scss) and Javascript
  
 
 
