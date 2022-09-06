@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik;
+  background-color: black;
+}
+
+.faq {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 400;
+  margin: 2.5rem 0 3rem;
+}
+.faq_accordion {
+  width: 50%;
+}
+.faq_accordion_sect {
+  background-color: white;
+  padding: 1rem 1.5rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+.faq_accordion_sect_question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faq_accordion_sect_question h3 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+.faq_accordion_sect_question span {
+  transition: 0.3s all ease;
+  font-size: 30px;
+  transform: rotate(90deg);
+}
+.faq_accordion_sect_ans {
+  transition: all 0.2s ease;
+  max-height: 0;
+  overflow: hidden;
+}
+.faq_accordion_sect_ans p {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.8rem;
+}
+
+.active {
+  overflow: visible !important;
+}
+
+.rotateY {
+  transform: rotate(-90deg) !important;
+}
+
+.dummy-bottom {
+  height: 100vh;
+}
+
+.display {
+  display: block !important;
+}
+
+@keyframes uppara {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=acc.css.map */
